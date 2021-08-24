@@ -124,11 +124,12 @@ export default function App() {
           <button
             onClick={() => genreClickHandler(genre)}
             style={{
-              cursor: "pointer",
-              background: "#ffffff",
+            cursor: "pointer",
+              background: "inherit",
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
-              border: "1px solid black",
+              border: "1px solid #F97068",
+              color: "#F97068",
               margin: "1rem 0.3rem"
             }}
           >
